@@ -1,0 +1,27 @@
+{
+  "name": "@codebrouwers/2ts",
+  "version": "0.1.0",
+  "description": "CLI to generate TypeScript models based on JSON",
+  "main": "src/index.ts",
+  "bin": "bin/index.mjs",
+  "files": [
+    "bin"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "author": "idiidk",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/yargs": "^17.0.32",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "clipboardy": "^4.0.0",
+    "json-ts": "^1.6.4",
+    "yargs": "^17.7.2"
+  }
+}
